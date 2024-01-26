@@ -3,21 +3,17 @@ import os.path
 import shutil
 import sys
 import io
-import numpy as np
 import folium
 import matplotlib as plt
 import rasterio
 import glob
 from folium import raster_layers
-import pathlib as ptlib
-import Transect_Analysis as TA
-from PyQt5.QtWebEngineWidgets import *
+from Transect_Sampler import Transect_Analysis as TA
 from PyQt5.QtGui import *
 from PyQt5.QtWidgets import *
 from PyQt5.QtCore import *
 from PyQt5.QtWebEngineWidgets import QWebEngineView
 from folium import *
-import geojson
 import geopandas as gpd
 import folium.plugins.draw as draw
 from PIL import Image
